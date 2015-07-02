@@ -1,0 +1,2 @@
+- Execute o Servidor2.jar
+- Execute o Jar referente ao cliente e informe o ip e a porta utilizada pelo servidor (Foi utilizada a porta 6565)

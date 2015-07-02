@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="245.0" prefWidth="380.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.TelaCadastro.FXMLCadastroPessoaController">
+  <children>
+    <Label layoutX="120.0" layoutY="10.0" text="Cadastro usuário">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Label>
+    <TextField fx:id="txtnome" layoutX="85.0" layoutY="42.0" prefWidth="200.0" />
+    <TextField fx:id="txtend" layoutX="85.0" layoutY="71.0" prefWidth="200.0" />
+    <TextField fx:id="txttel" layoutX="85.0" layoutY="102.0" prefWidth="200.0" />
+    <TextField fx:id="txtemail" layoutX="85.0" layoutY="135.0" prefWidth="200.0" />
+    <TextField fx:id="txtid" layoutX="85.0" layoutY="166.0" prefWidth="200.0" />
+    <TextField fx:id="txtsenha" layoutX="85.0" layoutY="199.0" prefWidth="200.0" />
+    <Label layoutX="21.0" layoutY="45.0" text="Nome" />
+    <Label layoutX="21.0" layoutY="77.0" text="Endereço" />
+    <Label layoutX="21.0" layoutY="111.0" text="Telefone" />
+    <Label layoutX="21.0" layoutY="144.0" text="Email" />
+    <Label layoutX="21.0" layoutY="175.0" text="ID" />
+    <Label layoutX="21.0" layoutY="208.0" text="Senha" />
+    <Button fx:id="btnok" layoutX="301.0" layoutY="45.0" mnemonicParsing="false" onAction="#EnviaDadosCadastro" prefHeight="179.0" prefWidth="65.0" text="Ok" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="245.0" prefWidth="380.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.TelaMenu.FXMLDocumentController2">
+  <children>
+    <Button fx:id="loginbtn" layoutX="37.0" layoutY="15.0" mnemonicParsing="false" onAction="#RealizaLogin" prefHeight="55.0" prefWidth="128.0" text="Login" />
+    <Button fx:id="realizarcadastrobtn" layoutX="210.0" layoutY="15.0" mnemonicParsing="false" onAction="#CadastrarPessoa" prefHeight="55.0" prefWidth="128.0" text="Realizar Cadastro" />
+    <Button fx:id="visualizarprodbtn" layoutX="37.0" layoutY="96.0" mnemonicParsing="false" onAction="#ListaProdutos" prefHeight="55.0" prefWidth="128.0" text="Visualizar produtos" />
+    <Button fx:id="cadprodbtn" layoutX="210.0" layoutY="96.0" mnemonicParsing="false" onAction="#CadastrarProduto" prefHeight="55.0" prefWidth="128.0" text="Cadastrar produtos" />
+    <Button fx:id="deslogarbtn" layoutX="37.0" layoutY="172.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="301.0" text="Deslogar" />
+  </children>
+</AnchorPane>
